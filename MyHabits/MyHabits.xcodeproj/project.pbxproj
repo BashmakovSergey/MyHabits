@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5918D7412AF6C8FB004D4C31 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5918D7402AF6C8FB004D4C31 /* MainCoordinator.swift */; };
+		5918D7432AF6C94C004D4C31 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5918D7422AF6C94C004D4C31 /* InfoViewController.swift */; };
+		5918D7452AF6C97D004D4C31 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5918D7442AF6C97D004D4C31 /* UIViewExtension.swift */; };
+		5918D7472AF6C9AA004D4C31 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5918D7462AF6C9AA004D4C31 /* UIColorExtension.swift */; };
+		5918D7492AF6C9E2004D4C31 /* InfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5918D7482AF6C9E2004D4C31 /* InfoModel.swift */; };
+		5918D74B2AF6CBF6004D4C31 /* HabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5918D74A2AF6CBF6004D4C31 /* HabitsViewController.swift */; };
+		5918D74D2AF6CDED004D4C31 /* HabitsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5918D74C2AF6CDED004D4C31 /* HabitsStore.swift */; };
 		5921E46F2AE86F4E00F63A98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5921E46E2AE86F4E00F63A98 /* AppDelegate.swift */; };
 		5921E4712AE86F4E00F63A98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5921E4702AE86F4E00F63A98 /* SceneDelegate.swift */; };
 		5921E4732AE86F4E00F63A98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5921E4722AE86F4E00F63A98 /* ViewController.swift */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5918D7402AF6C8FB004D4C31 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		5918D7422AF6C94C004D4C31 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		5918D7442AF6C97D004D4C31 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		5918D7462AF6C9AA004D4C31 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		5918D7482AF6C9E2004D4C31 /* InfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoModel.swift; sourceTree = "<group>"; };
+		5918D74A2AF6CBF6004D4C31 /* HabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewController.swift; sourceTree = "<group>"; };
+		5918D74C2AF6CDED004D4C31 /* HabitsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsStore.swift; sourceTree = "<group>"; };
 		5921E46B2AE86F4E00F63A98 /* MyHabits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHabits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5921E46E2AE86F4E00F63A98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5921E4702AE86F4E00F63A98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +77,13 @@
 				5921E4772AE86F5000F63A98 /* Assets.xcassets */,
 				5921E4792AE86F5000F63A98 /* LaunchScreen.storyboard */,
 				5921E47C2AE86F5000F63A98 /* Info.plist */,
+				5918D7402AF6C8FB004D4C31 /* MainCoordinator.swift */,
+				5918D74A2AF6CBF6004D4C31 /* HabitsViewController.swift */,
+				5918D7422AF6C94C004D4C31 /* InfoViewController.swift */,
+				5918D7482AF6C9E2004D4C31 /* InfoModel.swift */,
+				5918D7442AF6C97D004D4C31 /* UIViewExtension.swift */,
+				5918D7462AF6C9AA004D4C31 /* UIColorExtension.swift */,
+				5918D74C2AF6CDED004D4C31 /* HabitsStore.swift */,
 			);
 			path = MyHabits;
 			sourceTree = "<group>";
@@ -138,9 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5918D7452AF6C97D004D4C31 /* UIViewExtension.swift in Sources */,
+				5918D7472AF6C9AA004D4C31 /* UIColorExtension.swift in Sources */,
 				5921E4732AE86F4E00F63A98 /* ViewController.swift in Sources */,
+				5918D7412AF6C8FB004D4C31 /* MainCoordinator.swift in Sources */,
+				5918D74B2AF6CBF6004D4C31 /* HabitsViewController.swift in Sources */,
 				5921E46F2AE86F4E00F63A98 /* AppDelegate.swift in Sources */,
 				5921E4712AE86F4E00F63A98 /* SceneDelegate.swift in Sources */,
+				5918D7432AF6C94C004D4C31 /* InfoViewController.swift in Sources */,
+				5918D74D2AF6CDED004D4C31 /* HabitsStore.swift in Sources */,
+				5918D7492AF6C9E2004D4C31 /* InfoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
