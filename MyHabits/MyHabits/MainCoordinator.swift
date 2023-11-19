@@ -16,7 +16,9 @@ final class MainCoordinator: Coordinator {
     }
     
     private func setTabBarController(){
-        mainTabBarController.tabBar.backgroundColor = .systemBackground
+        mainTabBarController.tabBar.backgroundColor = .MyHabitsColor.whiteBackgroundColor
+        mainTabBarController.view.backgroundColor = .MyHabitsColor.whiteBackgroundColor
+        UITabBar.appearance().tintColor = .MyHabitsColor.purpleColor
         addControllersToTabBar()
     }
     
